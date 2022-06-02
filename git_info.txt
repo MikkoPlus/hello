@@ -24,3 +24,5 @@ git checkout "name_branch" - переключение между ветками
 git checkout -b "name_branch" - создание новой ветки и переключение на нее
 git branch -m "name_branch" "new_name_branch" - переименование ветки
 git branch -D - для удаления ветки
+git log --pretty=format:"%h -%d %s %cd" --graph - история всех коммитов
+git merge - слияние веток, находимся в ветке в которую сливаем остальные ветки
