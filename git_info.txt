@@ -1,5 +1,16 @@
 --строка терминала работает, если ничего не происходит или не дает ввод, то q - выход, пробел - пролистать дальше
 {cоздание псевдонима команды} - git config --global alias.gg 'log --pretty=format:"%C(yellow)%h%Creset -%C(green)%d%Creset %s %C(bold blue)(%cn) %C(green)%cd%Creset" --graph --date=format:"%d.%m.%Y %H:%M"' - изменение цвета вывода в консоли 
+----
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/MikkoPlus/hello.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+если имеются не загруженные файлы с удалённого репозитория, стоит сперва их загрузить
+----
 cd - изменить директорию
 git config --global user.name/email "" - глобально указывает автора и почту
 git init - запускает работу гита в папка
@@ -31,3 +42,5 @@ git remote add origin(имя удаленного репозиттория) http
 =>git push -u origin(имя удаленного репозиттория) master(название ветки) - отправление данных локального репозиттория на удаленный сервер(гит)
 git remote - список доступных удаленых реппозитториев
 git clone 'адрес удаленного git репозиттория'- клонировать репозиторий
+git pull 'название ветки' - для скачивания изменнений с репозитория
+git fetch - для получения всех изменений с удалённого сервера
