@@ -1,5 +1,6 @@
 Новая строка
 Другая строка
 
-Hi, Geekbrains
+Hi, Geekbrains  
 hello, Git rebase
+hello Git cherry pick
