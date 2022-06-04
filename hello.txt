@@ -2,3 +2,4 @@
 Другая строка
 
 Hi, Geekbrains
+hello, Git rebase
