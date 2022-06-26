@@ -1,0 +1,11 @@
+Новая строка
+Другая строка
+
+Hi, Geekbrains  
+hello, Git rebase
+hello Git cherry pick
+<<<<<<< HEAD
+=======
+hello squash!
+Hi squash
+>>>>>>> feature
